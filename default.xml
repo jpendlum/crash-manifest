@@ -17,9 +17,9 @@
         <remove-project name="meta-ti" />
         <remove-project name="meta-ettus" />
 
-        <project name="meta-xilinx" remote="jpendlum" path="meta-xilinx" revision="crash" />
-        <project name="meta-crash" remote="jpendlum" path="meta-crash" revision="master" />
-        <project name="gr-crash" remote="jpendlum" path="../gr-crash" revision="master" />
-        <project name="crash" remote="jpendlum" path="../crash" revision="master" />
+        <project name="meta-xilinx" remote="jpendlum" path="meta-xilinx" revision="crash" upstream="refs/head/crash" />
+        <project name="meta-crash" remote="jpendlum" path="meta-crash" revision="master" upstream="refs/head/master" />
+        <project name="gr-crash" remote="jpendlum" path="../gr-crash" revision="master" upstream="refs/head/master" />
+        <project name="crash" remote="jpendlum" path="../crash" revision="master" upstream="refs/head/master" />
 
 </manifest>
