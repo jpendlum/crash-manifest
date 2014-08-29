@@ -6,7 +6,7 @@
 
         <remote name="jpendlum"
                 fetch="git://github.com/jpendlum" />
- 
+
         <!-- Include Philip Balister's manifest so we can get all the OpenEmbedded repositories and meta-sdr,
              but remove his meta-xilinx project as we will use our own -->
         <include name="../../../oe-gnuradio-manifest/default.xml" />
@@ -21,5 +21,6 @@
         <project name="meta-crash" remote="jpendlum" path="meta-crash" revision="stable" upstream="refs/head/master" />
         <project name="gr-crash" remote="jpendlum" path="../gr-crash" revision="stable" upstream="refs/head/master" />
         <project name="crash" remote="jpendlum" path="../crash" revision="stable" upstream="refs/head/master" />
+        <project name="crash-uhd" remote="jpendlum" path="../crash-uhd" revision="crash-stable" upstream="refs/head/master" />
 
 </manifest>
